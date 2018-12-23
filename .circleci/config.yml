@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ./add
+    working_directory: ~/repo/add
     docker: # use the docker executor type; machine and macos executors are also supported
       - image: circleci/python:3.6.5
         environment: # environment variables for primary container
