@@ -26,4 +26,4 @@ jobs:
             - "/usr/local/lib/python3.6/site-packages"
       - run:
           command: |
-            pipenv run "python ~/add/test_add_three test"
+            pytest ./add/test_add_three.py
